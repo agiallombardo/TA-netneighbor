@@ -1,5 +1,5 @@
 # What
-Ever wonder... What might be on your network that you don't know about? Vulnerability scanners leverging NMAP can help provide that visbility but what happens if it's being blocked by a firewall?
+What is on your network that you don't know about? Vulnerability scanners can help provide that visibility, but what happens if it's being blocked by a network or host-based firewall? Leverage the UF to perform L2 and L3 asset discovery.
 
 # How
 Deploy to universial forwarder and enable the script relevent to the operating system.
