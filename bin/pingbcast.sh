@@ -1,5 +1,2 @@
 #!/bin/sh
-
-#BCAST="$(ip a | grep brd | grep inet | awk '{print $4}')"
-#ping "${BCAST}"
-ping -b `ip a | grep brd | grep inet | awk '{print $4}'`
+for i in $(ip -4 a | grep brd | awk '{print $4}'); do timeout 5s ping -b $i; done
